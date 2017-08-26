@@ -10,6 +10,7 @@ export default props => (
                     id='description' 
                     placeholder="Insira uma Atividade"
                     onChange={props.handleChange}
+                    value={props.description}
                 >
                 </input>
             </Grid>
